@@ -92,6 +92,6 @@ Note: Because someone abuse this demo website, all the generated link may be del
 1. 支持开关自动删除演示过期记录，
 
 ## 部署记录
-* 需要修改部署命令如 npx wrangler deploy index.js --name short --compatibility-date 2025-01-06
+* 需要修改部署命令如 npx wrangler deploy index.js --name short --compatibility-date 2025-01-06，name 必须与 worker 的名称一致
 * 需要关联github仓库，然后随便改一点代码来触发构建和部署（不知道有没有更好的方法）
 * 如果看到界面但是获取短链接失败，再关联 `LINKS` 一下KV存储
