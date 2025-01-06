@@ -1,0 +1,6 @@
+[observability.logs]
+enabled = true
+
+[[kv_namespaces]]
+binding = "LINKS"
+id = "06b312e6d3e1478f851e6fbf64008858" 
