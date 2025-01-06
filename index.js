@@ -211,8 +211,6 @@ async function handleRequest(request) {
   return Response.redirect(url, 302)
 }
 
-
-
 addEventListener("fetch", async event => {
   event.respondWith(handleRequest(event.request))
 })
